@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/logoWhite.png';
 
-const MobileFooter = () => {
+const MobileFooter = ({companyInfo}) => {
 
     const componentStyle = {
         display: 'flex',
@@ -9,7 +9,6 @@ const MobileFooter = () => {
         justifyContent: 'flex-start',
         width: '100%',
         height: '100px',
-        background: 'GREEN'
     }
 
     const logoStyle = {

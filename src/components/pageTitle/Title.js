@@ -3,9 +3,6 @@ import Bar from '../../assets/barBlue.png';
 
 const Title = () => {
 
-    const Bar = {
-
-    }
 
     return(
         <div>

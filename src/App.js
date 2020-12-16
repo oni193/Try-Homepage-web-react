@@ -1,10 +1,11 @@
 import React from 'react';
-// import MobileFooter from './components/footer/MobileFooter';
 import Footer from './components/Footer'
+import Header from './components/pageHeader/Header'
 
 function App() {
   return (
     <div>
+    <Header/>
     <Footer/>
     </div>
   );

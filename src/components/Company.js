@@ -19,7 +19,6 @@ const Company = () => {
             <BodyText text={data.body[0]}/>
             <BodyText text={data.body[1]}/>
         </div>
-
     );
 };
 

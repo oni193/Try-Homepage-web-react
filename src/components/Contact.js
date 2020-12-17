@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from './pageTitle/Title';
 import BodyText from './pageTitle/BodyText';
+import Map from './Map';
 // 아이콘
 import marker from '../assets/marker.png';
 import phone from '../assets/phone.png';
@@ -22,6 +23,7 @@ const Contact = () => {
         <Title text={data.title}/>
         <img src={marker}/><BodyText text={data.body[0]}/>
         <img src={phone}/><BodyText text={data.body[1]}/>
+        <Map />
         </div>
     );
 }

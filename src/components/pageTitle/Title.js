@@ -1,13 +1,20 @@
 import React from 'react';
 import Bar from '../../assets/barBlue.png';
 
-const Title = () => {
+const Title = ({text}) => {
 
-
+    const titleStyle = {
+        display: 'inline'
+    }
+    const barStyle = {
+        width: '4px',
+        height: 'auto',
+    };
+    
     return(
-        <div>
-            <img src={Bar} alt="Bar"/>
-            {/* {title} */}
+        <div style={titleStyle}>
+            <img src={Bar} style={barStyle} alt="Bar" />
+            <div>{text}</div>            
         </div>
     );
 };

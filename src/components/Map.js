@@ -11,6 +11,18 @@ const Map = () => {
             };
             const map = new kakao.maps.Map(container, options);
             
+            //마커 위치
+            const markerPosition = new kakao.maps.LatLng(
+                37.510006542345145, 
+                127.06571949171726
+            );
+            
+            const marker = new kakao.maps.Marker({
+                position : markerPosition
+            });
+            
+            marker.setMap(map);
+            
     },[]);
 
 

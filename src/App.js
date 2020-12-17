@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navigation from './components/Navigation'
+// import Navigation from './components/Navigation'
 import Header from './components/Header'
 import Company from './components/Company'
 import Contact from './components/Contact'
@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
-    <Navigation/>
+    {/* <Navigation/> */}
     <Header/>
     <Company/>
     <Contact/>

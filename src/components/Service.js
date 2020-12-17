@@ -1,20 +1,21 @@
 import React from 'react';
-import Title from './pageTitle/Title';
-// import SubTitle from './pageTitle/SubTitle';
-// import BodyText from './pageTitle/BodyText';
+import ServiceTitle from './service/ServiceTitle';
+import ServiceSlider from './service/ServiceSlider';
+
 
 const Service = () => {
     const serviceStyle ={
-        backgroundColor : '#ffec99',
+        backgroundColor : '#e67700',
         width: 'auto',
         height: '300px',
     }
     const data = {
-        title: 'SERVICE'
+        title: 'SERVICE',
     };
     return(
         <div style={serviceStyle}>
-            <Title text={data.title}/>
+            <ServiceTitle text={data.title}/>
+            <ServiceSlider/>
         </div>
 
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import ServiceTitle from './service/ServiceTitle';
-import ServiceSlider from './service/ServiceSlider';
-
+// import ServiceSlider from './service/ServiceSlider';
+import TrySlide from './service/TrySlide';
 
 const Service = () => {
     const serviceStyle ={
@@ -12,12 +12,12 @@ const Service = () => {
     const data = {
         title: 'SERVICE',
     };
-    return(
-        <div style={serviceStyle}>
-            <ServiceTitle text={data.title}/>
-            <ServiceSlider/>
-        </div>
 
+    return(        
+         <div style={serviceStyle}>
+             <ServiceTitle text={data.title}/>
+             <TrySlide/>
+         </div>
     );
 }
 

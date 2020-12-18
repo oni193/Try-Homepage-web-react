@@ -12,14 +12,15 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
-    {/* <Navigation/> */}
+    {/* <Navigation/>
     <Header/>
     <Company/>
     <Contact/>
     <Service/>
     <Recruit/>
     <Notice/>
-    <Footer/>
+    <Footer/> */}
+    <Service />
     </div>
   );
 }
